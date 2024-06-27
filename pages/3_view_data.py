@@ -160,7 +160,7 @@ def load_and_clean_data(file_path):
     return df
 
 # Load data
-file_path = './BSSummary.xlsx'
+file_path = './data/BSSummary.xlsx'
 dataframe = load_and_clean_data(file_path)
 
 st.write("Summary of balance sheet:")
