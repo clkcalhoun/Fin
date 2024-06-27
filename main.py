@@ -7,7 +7,7 @@ import hmac
 assistant_id = st.secrets["assistant_id"]
 
 # Initialize the OpenAI client (ensure to set your API key in the sidebar within the app)
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+openai.api_key = st.secrets["key"]
 client = openai
 
 # Initialize session state variables for file IDs and chat control
