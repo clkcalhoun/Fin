@@ -1,6 +1,5 @@
 streamlit
 openai
 pandas
-robin_stocks
 random
 openpyxl
