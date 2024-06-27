@@ -2,10 +2,10 @@ import streamlit as st
 
 st.title("About Fin")
 
-st.write("### Financial literacy is one of the most important skills.")
-st.write("### Fin's goal is to demystify your finances.")
+st.write("### Everyone has questions about their money.")
+st.write("### Fin is here to answer them.")
 
-st.write("This is a basic prototype to enable founders to have educated conversations with experts around the industry.")
+st.write("This is a basic prototype to enable the founders to have educated conversations with experts around the industry.")
 
 example_questions = ["What are my total holdings?", 
                      "What are my total equity holdings in Robin Hood?", 
