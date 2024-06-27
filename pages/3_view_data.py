@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import hmac
-import openpyxl
 
 st.title("View data")
 
@@ -142,7 +141,7 @@ st.write("#### Balance sheet")
 
 def load_and_clean_data(file_path):
     # Read the Excel file
-    df = pd.read_excel(file_path, skiprows=2, engine=openpyxl) 
+    df = pd.read_excel(file_path, skiprows=2) 
     # Rename columns for easier access
     # Security	Top Level Legal Entity	Asset Class	Sub-Asset Class	Sub-Sub-Asset Class	Value	Quantity	% of Portfolio	Price Per Share (USD)	Adjusted Value (5/24/2023, USD)	Unfunded Commitment
     expected_columns = [
